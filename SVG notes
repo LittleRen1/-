@@ -1,0 +1,37 @@
+SVG学习笔记
+
+
+
+模板样式：
+<?xml version="1.0" standalone="no"?>
+
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+
+<circle cx="100" cy="50" r="40" stroke="black"
+stroke-width="2" fill="red"/>
+
+</svg>
+
+
+可通过1.<embed src=""> <object data="">或者<iframe src="">应用到html
+
+
+常用元素：
+矩形 <rect>:x="" y="" width="" height="" style=""
+圆形 <circle> cx cy r stroke: stroke-width: fill:
+椭圆 <ellipse> cx cy rx ry fill:rgb() 
+线 <line> x1 y1 x2 y2
+折线 <polyline> points
+多边形 <polygon> points="220,100 300,210"
+路径 <path>
+  M = moveto
+  L = lineto
+  H = horizontal lineto
+  V = vertical lineto
+  C = curveto
+  S = smooth curveto
+  Q = quadratic Belzier curve
+  T = smooth quadratic Belzier curveto
+  A = elliptical Arc
+  Z = closepath
